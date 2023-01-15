@@ -23,7 +23,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        'C:/Users/Andrei_Kramski/source/repos/wdio/test/specs/*.js'
+        'C:/Users/Andrei_Kramski/source/repos/JavaScript-Automation/wdio/test/specs/*.js'
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
