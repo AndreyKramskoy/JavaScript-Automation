@@ -1,4 +1,3 @@
-//button[text()='Cancel']
 describe("Test suite", () => {
     
     it("First test", async () => {
@@ -27,8 +26,8 @@ describe("Test suite", () => {
         await $("input[name=Education]").setValue("Univesity");
         await $("//button[text()='Save']").click();
     
-            const emailError = await $("label#undefined-info");
-            expect(await emailError.getText()).toEqual("Enter valid mobile number");
+            const mobileError = await $("label#undefined-info");
+            expect(await mobileError.getText()).toEqual("Enter valid mobile number");
         });
 
         it("Fourth test", async() => {
@@ -40,8 +39,8 @@ describe("Test suite", () => {
             await $("#DoctorMobile").setValue("9999999999");
             await $("//button[text()='Save']").click();
     
-            const emailError = await $("label#Education-info");
-            expect(await emailError.getText()).toEqual("Enter valid education");
+            const EducationError = await $("label#Education-info");
+            expect(await EducationError.getText()).toEqual("Enter valid education");
             });
 
             it("Fifth test", async() => {
@@ -53,9 +52,67 @@ describe("Test suite", () => {
                 await $("#DoctorMobile").setValue("9999999999");
                 await $("//button[text()='Save']").click();
                     
-                    const emailError = await $("label#Name-info");
-                 expect(await emailError.getText()).toEqual("Enter valid name");
+                    const NameError = await $("label#Name-info");
+                 expect(await NameError.getText()).toEqual("Enter valid name");
 
                     await $("/html/body/div[2]/ejs-dialog/div[1]/button").click();
-                });                
+                });
+                
+                                   
+                it("WebDriverIO 1", async() => {                                                            
+                     const DashboardBut = await $("div.dashboard"); 
+                     await DashboardBut.waitForExist();
+                     await DashboardBut.waitForExist({
+                        timeout: 1000,
+                        reverse: false,
+                        timeoutMsg: "There is no DashboardBut element",
+                        interval:50,
+                     });
+                     
+               });              
+                  
+                 it("WebDriverIO 2", async() => {                                           
+                     const emailError = await $("label#Name-info");
+                     console.log(await emailError.isDisplayed());
+                     console.log(await emailError.isExisting());
+                     });
+
+                it("WebDriverIO 3", async() => {                     
+                     await $("//button[text()='Add New Doctor']").click({
+                        button:0
+                     });
+                     const DialogWindow = await $("div.e-dlg-content"); 
+                     await DialogWindow.waitForDisplayed();
+                     await DialogWindow.waitForDisplayed({
+                        timeout: 10000,
+                        reverse: false,
+                        timeoutMsg: "There is no DialogWindow element",
+                        interval:100,
+                     });
+                     await $("/html/body/div[2]/ejs-dialog/div[1]/button").click();
+                         });
+
+                 it("WebDriverIO 4", async() => {                                           
+                            await browser.pause(3000);
+                            await browser.setCookies([
+                                {
+                                    name:"MyCookie",
+                                    value: "ILoveJavaScript",
+                                },                                
+                            ]);
+                            await browser.pause(50000);
+                            });
+
+                            it("WebDriverIO 5", async() => {                     
+                                await $("//button[text()='Add New Doctor']").click();
+                                const ButtonCansel = await $("div.button-container"); 
+                                await ButtonCansel.click({
+                                   button:0,
+                                   x:43,
+                                   Y:32,     
+
+                                });                                
+                                    });
+
+
 })
