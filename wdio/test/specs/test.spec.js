@@ -14,7 +14,7 @@ describe("Test suite", () => {
     await $("//button[text()='Save']").click();
 
         const emailError = await $("label#Email-info");
-        expect(await emailError.getText()).toEqual("Enter valid email");
+        expect(await emailError.getText()).toEqual("Enter valid email55");
     });
 
     it("Third test", async() => {

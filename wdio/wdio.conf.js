@@ -1,3 +1,7 @@
+const{
+    existsSync,
+    mkdirSync
+} = require("fs");
 export const config = {
     //
     // ====================
@@ -269,8 +273,19 @@ export const config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: async(test, context, result) => {
+        if(result.error){
+            console.log(`Screenshot for the failed test ${test.title} is saved`);
+            const filename = test.title + '.png';
+            const dirPath = 'C:\\Users\\Andrei_Kramski\\source\\repos\\wdio\\screenshots';
+            if(!existsSync(dirPath)){
+                mkdirSync(dirPath,{
+                    recursive: true,
+                });
+            }
+            await browser.saveScreenshot(dirPath + filename);
+        }
+    },
 
 
     /**
