@@ -1,8 +1,8 @@
-const{
+const {
     existsSync,
     mkdirSync
 } = require("fs");
-export const config = {
+exports.config = {
     //
     // ====================
     // Runner Configuration
