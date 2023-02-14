@@ -65,7 +65,23 @@ export const config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+    },{
+    
+        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
+        // grid with only 5 firefox instances available you can make sure that not more than
+        // 5 instances get started at a time.
+        maxInstances: 1,
+        //
+        browserName: 'firefox',
+        'moz:firefoxOptions': {
+            binary: 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'
+        },
+        acceptInsecureCerts: true
+        // If outputDir is provided WebdriverIO can capture driver session logs
+        // it is possible to configure which logTypes to include/exclude.
+        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+        // excludeDriverLogs: ['bugreport', 'server'],
+    },],
     //
     // ===================
     // Test Configurations
@@ -113,13 +129,20 @@ export const config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: [['chromedriver', 
-    {
+    services: [['selenium-standalone', { 
+        drivers: { firefox: '0.32.2', chrome: true }
+    }
+        /*'chromedriver',{
         logFileName: 'wdio-chromedriver.log', // default
         outputDir: 'driver-logs', // overwrites the config.outputDir
         args: ['--silent'],
         chromedriverCustomPath:'C:\\Users\\Andrei_Kramski\\source\\chromedriver_win32\\chromedriver.exe'
-    }]],
+    }, 'geckodriver',{
+        logFileName: 'wdio-geckodriver.log', // default
+        outputDir: './logs', // overwrites the config.outputDir
+        args: ['--log=info'],
+        geckodriverCustomPath:'C:\\Users\\Andrei_Kramski\\source\\geckodriver-v0.32.2-win32\\geckodriver.exe'
+    }*/]],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
