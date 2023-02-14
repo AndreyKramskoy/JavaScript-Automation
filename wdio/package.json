@@ -18,6 +18,7 @@
     "wdio": "wdio run ./wdio.conf.js"
   },
   "dependencies": {
+    "allure-commandline": "^2.21.0",
     "uuid": "^9.0.0"
   }
 }
