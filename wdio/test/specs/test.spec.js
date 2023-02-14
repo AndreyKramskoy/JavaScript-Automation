@@ -40,7 +40,7 @@ describe("Test suite", () => {
             await $("//button[text()='Save']").click();
     
             const EducationError = await $("label#Education-info");
-            expect(await EducationError.getText()).toEqual("Enter valid educationVV");
+            expect(await EducationError.getText()).toEqual("Enter valid education");
             });
 
             it("Fifth test", async() => {
