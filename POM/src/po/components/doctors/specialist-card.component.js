@@ -12,6 +12,14 @@ class SpecialistCardComponent extends BaseComponent {
   get education() {
     return this.rootEl.$('.education');
   }
+
+  get phone() {
+    return this.rootEl.$('.phone');
+  }
+
+  get email() {
+    return this.rootEl.$('.email');
+  }
 }
 
 module.exports = SpecialistCardComponent;
