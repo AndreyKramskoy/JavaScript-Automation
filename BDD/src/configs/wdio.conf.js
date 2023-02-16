@@ -23,7 +23,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './src/features/*.feature'
+        './../features/*.feature'
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
