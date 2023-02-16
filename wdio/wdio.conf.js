@@ -78,9 +78,9 @@ exports.config = {
         maxInstances: 1,
         //
         browserName: 'firefox',
-        'moz:firefoxOptions': {
+        /*'moz:firefoxOptions': {
             binary: 'C:\\Program Files\\Mozilla Firefox\\firefox.exe'
-        },
+        },*/
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
