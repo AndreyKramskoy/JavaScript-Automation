@@ -28,7 +28,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        'C:/Users/Andrei_Kramski/source/repos/JavaScript-Automation/wdio/test/specs/*.js'
+        './test/specs/*.js'
         // ToDo: define location for spec files here
     ],
     // Patterns to exclude.
@@ -135,8 +135,9 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: [['selenium-standalone', { 
-        drivers: { firefox: '0.32.2', chrome: true }
-    }
+        drivers: { firefox: 'latest', chrome: true, chromiumedge: 'latest' } 
+    }]
+],
         /*'chromedriver',{
         logFileName: 'wdio-chromedriver.log', // default
         outputDir: 'driver-logs', // overwrites the config.outputDir
@@ -147,7 +148,7 @@ exports.config = {
         outputDir: './logs', // overwrites the config.outputDir
         args: ['--log=info'],
         geckodriverCustomPath:'C:\\Users\\Andrei_Kramski\\source\\geckodriver-v0.32.2-win32\\geckodriver.exe'
-    }*/]],
+    }]],*/
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

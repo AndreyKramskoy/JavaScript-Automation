@@ -1,235 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Test suite" timestamp="2023-02-16T10:43:33" time="58.465" tests="10" failures="0" errors="0" skipped="0">
+  <testsuite name="Test suite" timestamp="2023-02-16T12:39:51" time="57.929" tests="10" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Test suite"/>
       <property name="capabilities" value="chrome.110_0_5481_77.windows"/>
       <property name="file" value="file:///C:/Users/Andrei_Kramski/source/repos/JavaScript-Automation/wdio/test/specs/test.spec.js"/>
     </properties>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="First test" time="1.827">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="First test" time="1.901">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/url - {"url":"https://ej2.syncfusion.com/showcase/angular/appointmentplanner/#/dashboard"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/url - {"url":"https://ej2.syncfusion.com/showcase/angular/appointmentplanner/#/dashboard"}
 RESULT: {"url":"https://ej2.syncfusion.com/showcase/angular/appointmentplanner/#/dashboard"}
-COMMAND: GET /session/179c1d449772ad4db28a5244d892f6d3/title - {}
+COMMAND: GET /session/b0a8127c26235316882093bf7e21b6ad/title - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Second test" time="0.674">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Second test" time="0.522">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.doctors"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.doctors"}
 RESULT: {"using":"css selector","value":"div.doctors"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/efb0b85f-58a2-420d-b44e-e69ea1043595/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/5627099a-d903-4d3e-9846-4c6b921b79e9/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/b8e28075-9917-4eba-aeab-d86a377abc55/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/2c4b7439-9537-4e30-b688-00a506758cb2/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name='Name']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name='Name']"}
 RESULT: {"using":"css selector","value":"input[name='Name']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/value - {"text":"Andrey"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/value - {"text":"Andrey"}
 RESULT: {"text":"Andrey"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Save']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Save']"}
 RESULT: {"using":"xpath","value":"//button[text()='Save']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/0de0f78b-a869-4fe3-b837-ec6073d7bd2f/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/67462cc6-3d8f-4e5a-a99c-bb14274c26f6/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"label#Email-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"label#Email-info"}
 RESULT: {"using":"css selector","value":"label#Email-info"}
-COMMAND: GET /session/179c1d449772ad4db28a5244d892f6d3/element/70b517e3-7e59-45d2-9309-129228d234a2/text - {}
+COMMAND: GET /session/b0a8127c26235316882093bf7e21b6ad/element/7b50bdca-70b4-4182-a777-f90deb37c12a/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Third test" time="0.762">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Third test" time="0.593">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Cancel']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Cancel']"}
 RESULT: {"using":"xpath","value":"//button[text()='Cancel']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/f3396ee8-a44e-4004-8da6-b4c7d576f39e/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/0010d77f-d3cc-45a3-847e-8de5f79f7545/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.doctors"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.doctors"}
 RESULT: {"using":"css selector","value":"div.doctors"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/efb0b85f-58a2-420d-b44e-e69ea1043595/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/5627099a-d903-4d3e-9846-4c6b921b79e9/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/b8e28075-9917-4eba-aeab-d86a377abc55/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/2c4b7439-9537-4e30-b688-00a506758cb2/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name='Name']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name='Name']"}
 RESULT: {"using":"css selector","value":"input[name='Name']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/value - {"text":"Andrey"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/value - {"text":"Andrey"}
 RESULT: {"text":"Andrey"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name=Email]"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name=Email]"}
 RESULT: {"using":"css selector","value":"input[name=Email]"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/value - {"text":"Andrey@gmail.com"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/value - {"text":"Andrey@gmail.com"}
 RESULT: {"text":"Andrey@gmail.com"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name=Education]"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name=Education]"}
 RESULT: {"using":"css selector","value":"input[name=Education]"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/3ea3e51a-333f-4652-91f1-4bea1cfa7b16/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/316be0db-f500-4e28-802d-28e0ef27a959/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/3ea3e51a-333f-4652-91f1-4bea1cfa7b16/value - {"text":"Univesity"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/316be0db-f500-4e28-802d-28e0ef27a959/value - {"text":"Univesity"}
 RESULT: {"text":"Univesity"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Save']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Save']"}
 RESULT: {"using":"xpath","value":"//button[text()='Save']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/0de0f78b-a869-4fe3-b837-ec6073d7bd2f/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/67462cc6-3d8f-4e5a-a99c-bb14274c26f6/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"label#undefined-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"label#undefined-info"}
 RESULT: {"using":"css selector","value":"label#undefined-info"}
-COMMAND: GET /session/179c1d449772ad4db28a5244d892f6d3/element/9fffed2d-802c-467f-9be9-51e39339d713/text - {}
+COMMAND: GET /session/b0a8127c26235316882093bf7e21b6ad/element/e5146ae7-2d04-48b0-b5e0-fca2586520bc/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Fourth test" time="0.799">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Fourth test" time="0.608">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Cancel']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Cancel']"}
 RESULT: {"using":"xpath","value":"//button[text()='Cancel']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/f3396ee8-a44e-4004-8da6-b4c7d576f39e/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/0010d77f-d3cc-45a3-847e-8de5f79f7545/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.doctors"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.doctors"}
 RESULT: {"using":"css selector","value":"div.doctors"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/efb0b85f-58a2-420d-b44e-e69ea1043595/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/5627099a-d903-4d3e-9846-4c6b921b79e9/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/b8e28075-9917-4eba-aeab-d86a377abc55/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/2c4b7439-9537-4e30-b688-00a506758cb2/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name='Name']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name='Name']"}
 RESULT: {"using":"css selector","value":"input[name='Name']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/e818c123-61a2-4c92-a393-d37b8a9fea75/value - {"text":"Andrey"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/48899316-ee02-4ec0-8cee-ec2259494186/value - {"text":"Andrey"}
 RESULT: {"text":"Andrey"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name=Email]"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name=Email]"}
 RESULT: {"using":"css selector","value":"input[name=Email]"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/value - {"text":"Andrey@gmail.com"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/value - {"text":"Andrey@gmail.com"}
 RESULT: {"text":"Andrey@gmail.com"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"#DoctorMobile"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"#DoctorMobile"}
 RESULT: {"using":"css selector","value":"#DoctorMobile"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/308220d3-2d21-43a8-9c68-205190c5e530/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9906d5a1-31e3-4853-b2eb-df36e74b0f09/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/308220d3-2d21-43a8-9c68-205190c5e530/value - {"text":"9999999999"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9906d5a1-31e3-4853-b2eb-df36e74b0f09/value - {"text":"9999999999"}
 RESULT: {"text":"9999999999"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Save']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Save']"}
 RESULT: {"using":"xpath","value":"//button[text()='Save']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/0de0f78b-a869-4fe3-b837-ec6073d7bd2f/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/67462cc6-3d8f-4e5a-a99c-bb14274c26f6/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"label#Education-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"label#Education-info"}
 RESULT: {"using":"css selector","value":"label#Education-info"}
-COMMAND: GET /session/179c1d449772ad4db28a5244d892f6d3/element/5f42e0c2-35dc-49d2-9316-bfa22e988888/text - {}
+COMMAND: GET /session/b0a8127c26235316882093bf7e21b6ad/element/5111e169-9bcc-4f0e-a72b-f14067f39cea/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Fifth test" time="0.765">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="Fifth test" time="0.681">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Cancel']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Cancel']"}
 RESULT: {"using":"xpath","value":"//button[text()='Cancel']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/f3396ee8-a44e-4004-8da6-b4c7d576f39e/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/0010d77f-d3cc-45a3-847e-8de5f79f7545/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.doctors"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.doctors"}
 RESULT: {"using":"css selector","value":"div.doctors"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/efb0b85f-58a2-420d-b44e-e69ea1043595/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/5627099a-d903-4d3e-9846-4c6b921b79e9/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/b8e28075-9917-4eba-aeab-d86a377abc55/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/2c4b7439-9537-4e30-b688-00a506758cb2/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name=Education]"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name=Education]"}
 RESULT: {"using":"css selector","value":"input[name=Education]"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/3ea3e51a-333f-4652-91f1-4bea1cfa7b16/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/316be0db-f500-4e28-802d-28e0ef27a959/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/3ea3e51a-333f-4652-91f1-4bea1cfa7b16/value - {"text":"Univesity"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/316be0db-f500-4e28-802d-28e0ef27a959/value - {"text":"Univesity"}
 RESULT: {"text":"Univesity"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"input[name=Email]"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"input[name=Email]"}
 RESULT: {"using":"css selector","value":"input[name=Email]"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/15d0d3c1-15ba-4f08-a435-aa78c0eddaf8/value - {"text":"Andrey@gmail.com"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9401b4dc-064d-4f2a-9320-2c60ae6fcf35/value - {"text":"Andrey@gmail.com"}
 RESULT: {"text":"Andrey@gmail.com"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"#DoctorMobile"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"#DoctorMobile"}
 RESULT: {"using":"css selector","value":"#DoctorMobile"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/308220d3-2d21-43a8-9c68-205190c5e530/clear - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9906d5a1-31e3-4853-b2eb-df36e74b0f09/clear - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/308220d3-2d21-43a8-9c68-205190c5e530/value - {"text":"9999999999"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9906d5a1-31e3-4853-b2eb-df36e74b0f09/value - {"text":"9999999999"}
 RESULT: {"text":"9999999999"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Save']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Save']"}
 RESULT: {"using":"xpath","value":"//button[text()='Save']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/0de0f78b-a869-4fe3-b837-ec6073d7bd2f/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/67462cc6-3d8f-4e5a-a99c-bb14274c26f6/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"label#Name-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"label#Name-info"}
 RESULT: {"using":"css selector","value":"label#Name-info"}
-COMMAND: GET /session/179c1d449772ad4db28a5244d892f6d3/element/a06b32f3-f9dd-460d-9780-7fa44f665920/text - {}
+COMMAND: GET /session/b0a8127c26235316882093bf7e21b6ad/element/2678560f-1ad8-4621-80e9-82f2809b0229/text - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
 RESULT: {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/1b6cb115-32d2-4ff2-a45a-b94e737ee87c/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9e4787cd-3aad-4ce5-bb55-8e01b7472a9e/click - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 1" time="0.053">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 1" time="0.05">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.dashboard"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.dashboard"}
 RESULT: {"using":"css selector","value":"div.dashboard"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/elements - {"using":"css selector","value":"div.dashboard"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/elements - {"using":"css selector","value":"div.dashboard"}
 RESULT: {"using":"css selector","value":"div.dashboard"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/elements - {"using":"css selector","value":"div.dashboard"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/elements - {"using":"css selector","value":"div.dashboard"}
 RESULT: {"using":"css selector","value":"div.dashboard"}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 2" time="0.066">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 2" time="0.067">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"label#Name-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"label#Name-info"}
 RESULT: {"using":"css selector","value":"label#Name-info"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a06b32f3-f9dd-460d-9780-7fa44f665920","ELEMENT":"a06b32f3-f9dd-460d-9780-7fa44f665920"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a06b32f3-f9dd-460d-9780-7fa44f665920","ELEMENT":"a06b32f3-f9dd-460d-9780-7fa44f665920"}]}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/elements - {"using":"css selector","value":"label#Name-info"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2678560f-1ad8-4621-80e9-82f2809b0229","ELEMENT":"2678560f-1ad8-4621-80e9-82f2809b0229"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2678560f-1ad8-4621-80e9-82f2809b0229","ELEMENT":"2678560f-1ad8-4621-80e9-82f2809b0229"}]}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/elements - {"using":"css selector","value":"label#Name-info"}
 RESULT: {"using":"css selector","value":"label#Name-info"}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 3" time="0.26">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 3" time="0.252">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/actions - {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/actions - {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
 RESULT: {"actions":[{"id":"action1","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
-COMMAND: DELETE /session/179c1d449772ad4db28a5244d892f6d3/actions - {}
+COMMAND: DELETE /session/b0a8127c26235316882093bf7e21b6ad/actions - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.e-dlg-content"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.e-dlg-content"}
 RESULT: {"using":"css selector","value":"div.e-dlg-content"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c855fcce-c38d-4e09-9dde-e689910c908d","ELEMENT":"c855fcce-c38d-4e09-9dde-e689910c908d"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c855fcce-c38d-4e09-9dde-e689910c908d","ELEMENT":"c855fcce-c38d-4e09-9dde-e689910c908d"}]}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c855fcce-c38d-4e09-9dde-e689910c908d","ELEMENT":"c855fcce-c38d-4e09-9dde-e689910c908d"}]}
-RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c855fcce-c38d-4e09-9dde-e689910c908d","ELEMENT":"c855fcce-c38d-4e09-9dde-e689910c908d"}]}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"43f8ef2f-3759-4f39-b78a-033a99d0ad89","ELEMENT":"43f8ef2f-3759-4f39-b78a-033a99d0ad89"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"43f8ef2f-3759-4f39-b78a-033a99d0ad89","ELEMENT":"43f8ef2f-3759-4f39-b78a-033a99d0ad89"}]}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"43f8ef2f-3759-4f39-b78a-033a99d0ad89","ELEMENT":"43f8ef2f-3759-4f39-b78a-033a99d0ad89"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7807 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"43f8ef2f-3759-4f39-b78a-033a99d0ad89","ELEMENT":"43f8ef2f-3759-4f39-b78a-033a99d0ad89"}]}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
 RESULT: {"using":"xpath","value":"/html/body/div[2]/ejs-dialog/div[1]/button"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/1b6cb115-32d2-4ff2-a45a-b94e737ee87c/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/9e4787cd-3aad-4ce5-bb55-8e01b7472a9e/click - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
     <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 4" time="53.03">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/cookie - {"cookie":{"name":"MyCookie","value":"ILoveJavaScript"}}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/cookie - {"cookie":{"name":"MyCookie","value":"ILoveJavaScript"}}
 RESULT: {"cookie":{"name":"MyCookie","value":"ILoveJavaScript"}}
 ]]></system-out>
     </testcase>
-    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 5" time="0.221">
+    <testcase classname="chrome.110_0_5481_77.windows.Test_suite" name="WebDriverIO 5" time="0.222">
       <system-out><![CDATA[
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"xpath","value":"//button[text()='Add New Doctor']"}
 RESULT: {"using":"xpath","value":"//button[text()='Add New Doctor']"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element/b8e28075-9917-4eba-aeab-d86a377abc55/click - {}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element/2c4b7439-9537-4e30-b688-00a506758cb2/click - {}
 RESULT: {}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/element - {"using":"css selector","value":"div.button-container"}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/element - {"using":"css selector","value":"div.button-container"}
 RESULT: {"using":"css selector","value":"div.button-container"}
-COMMAND: POST /session/179c1d449772ad4db28a5244d892f6d3/actions - {"actions":[{"id":"action2","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
+COMMAND: POST /session/b0a8127c26235316882093bf7e21b6ad/actions - {"actions":[{"id":"action2","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
 RESULT: {"actions":[{"id":"action2","type":"pointer","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"5 more keys: [\"azimuthAngle\",\"x\",\"y\",\"duration\",\"origin\"]"},{"type":"pointerDown","button":0,"width":0,"height":0,"pressure":0,"tangentialPressure":0,"tiltX":0,"tiltY":0,"twist":0,"altitudeAngle":0,"_":"1 more keys: [\"azimuthAngle\"]"},{"type":"pointerUp","button":0}]}]}
-COMMAND: DELETE /session/179c1d449772ad4db28a5244d892f6d3/actions - {}
+COMMAND: DELETE /session/b0a8127c26235316882093bf7e21b6ad/actions - {}
 RESULT: {}
-COMMAND: DELETE /session/179c1d449772ad4db28a5244d892f6d3 - {}
+COMMAND: DELETE /session/b0a8127c26235316882093bf7e21b6ad - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
