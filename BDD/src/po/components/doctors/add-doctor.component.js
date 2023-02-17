@@ -13,6 +13,18 @@ class AddDoctorComponent extends BaseComponent {
     return this.rootEl.$('.button-container button.e-primary');
   }
 
+/**
+   * @param button {'save' | 'close' }
+   */
+
+  async clickButton(button) {
+    if (button.toLowerCase() === 'save') {
+      await this.saveBtn.click();
+    }else {
+    await this.closeBtn.click();
+  }
+  }
+
   /**
    * @param name {'name' | 'phone' | 'email' | 'education' | 'designation'}
    */

@@ -14,7 +14,7 @@ Given('I click add new doctor button from list header', function () {
   });
   
 Given('I click {string} button in modal window', function (button) {
-    return page('doctors').addDoctorModal.click(button);
+    return page('doctors').addDoctorModal.clickButton(button);
   });
   
 Given('I wait {int} seconds', function (timeToWaitInSeconds) {

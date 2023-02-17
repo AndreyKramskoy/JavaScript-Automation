@@ -8,6 +8,8 @@ Feature: Dashboard 2
     And I click add new doctor button from list header
     Then modal window should be displayed
 
-   
+    When I click "close" button in modal window
+    Then modal window should not be displayed
+
 
  
